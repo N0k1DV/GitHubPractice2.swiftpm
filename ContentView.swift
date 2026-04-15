@@ -5,6 +5,10 @@ struct ContentView: View {
     @State var number2 = 0
     @State var answer = 0
     var body: some View {
+        
+        Text("Simple Calculator")
+            .font(.largeTitle)
+        
         VStack{
             
             TextField("Enter number 1", value: $number1, format: .number)
